@@ -152,13 +152,13 @@ const contentArray = [
       },
       {
         cardId: "02",
-        title: "Enhancing Workflow and Accessibility",
+        title: "Improving Layout & Accessibility",
         description:
           'I repositioned key elements, placed the search bar where users expect it, replaced multiple action buttons with a "More" button for cleaner tables, and introduced horizontal scrolling for large tables to improve readability.',
       },
       {
         cardId: "03",
-        title: "Refining Readability & Content Structure",
+        title: "Enhancing Readability & Content Structure",
         description:
           "I refine text styles to establish better hierarchy, enhance contrast, and label clarity. I also replace modals with full pages for more detailed and structured content, resulting in clearer and more organized information.",
       },
@@ -763,7 +763,7 @@ const Project2 = () => {
               </div>
             </div>
             <div className="w-100 d-flex flex-row justify-content-between solutions-card-container blue-white-card">
-              {projectContent.definingCards.map((card, index) => (
+              {projectContent.solutionsCards.map((card, index) => (
                 <div key={index} className="w-100 solutions-card">
                   <h6 className="text-white ">{card.cardId}</h6>
                   <h6 className="text-white ">{card.title}</h6>
